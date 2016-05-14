@@ -1,0 +1,15 @@
+{
+  "name": "ageIdentBot",
+  "version": "0.0.0",
+  "description": "Age identifying bot for Telegram",
+  "scripts": {
+    "start": "node src/ageidentifier.js"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "node-telegram-bot-api": "^0.21.1",
+    "request": "^2.72.0",
+    "body-parser": "1.15.1"
+  },
+  "license": "MIT"
+}
